@@ -9,7 +9,6 @@ function removeNumb(){
     document.getElementById('result').value =  document.getElementById('result').value.slice(0,res.lenght-1)
 }
 function getResults(){
-   // console.log(document.getElementById('result').value)
-    document.getElementById('result').value = eval( document.getElementById('result').value)
+    document.getElementById('result').value = eval(document.getElementById('result').value)
     
 }
